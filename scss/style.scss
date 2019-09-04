@@ -1,0 +1,29 @@
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+@mixin button($color, $padding) {
+    background: $color;
+    color: white;
+    padding: $padding;
+    font-family: arial;
+    font-size: 20px;
+    border: 2px solid gray;
+    &:hover{
+        background: lighten($color, 20%);
+    }
+
+}
+.button:nth-child(1){
+    @include button(red, 10px);
+}
+.button:nth-child(2){
+    @include button(orange, 20px);
+}
+.button:nth-child(3){
+    @include button(black, 25px);
+}

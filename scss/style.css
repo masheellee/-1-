@@ -1,0 +1,48 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.button:nth-child(1) {
+  background: red;
+  color: white;
+  padding: 10px;
+  font-family: arial;
+  font-size: 20px;
+  border: 2px solid gray;
+}
+
+.button:nth-child(1):hover {
+  background: #ff6666;
+}
+
+.button:nth-child(2) {
+  background: orange;
+  color: white;
+  padding: 20px;
+  font-family: arial;
+  font-size: 20px;
+  border: 2px solid gray;
+}
+
+.button:nth-child(2):hover {
+  background: #ffc966;
+}
+
+.button:nth-child(3) {
+  background: black;
+  color: white;
+  padding: 25px;
+  font-family: arial;
+  font-size: 20px;
+  border: 2px solid gray;
+}
+
+.button:nth-child(3):hover {
+  background: #333333;
+}
+/*# sourceMappingURL=style.css.map */
